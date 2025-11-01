@@ -1,0 +1,20 @@
+# Arquivos de compilação e binários Java
+*.class
+*.war
+/bin/
+/target/
+
+# Exceção: Permite a pasta lib e seu conteúdo (remova a linha *.jar)
+!/lib/
+!/lib/*.jar
+
+# Arquivos e pastas do Eclipse/IDE
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+
+# Logs e arquivos temporários
+*.log
+temp/
